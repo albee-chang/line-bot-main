@@ -58,7 +58,7 @@ async function handleEvent(event) {
         content: "你好，我是小仙子",
       },
     ],
-    max_tokens: 500,
+    max_tokens: 200,
   });
 
   // create a echoing text message
