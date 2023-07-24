@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('.env').config();
 
 const express = require('express');
 const line = require('@line/bot-sdk');
