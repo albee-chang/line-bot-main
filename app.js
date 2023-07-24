@@ -53,10 +53,6 @@ async function handleEvent(event) {
         role: "user",
         content: event.message.text,
       },
-      {
-        role: "system",
-        content: "你好，我是小仙子",
-      },
     ],
     max_tokens: 200,
   });
